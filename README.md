@@ -2,7 +2,7 @@
 
 Please use the PowerShell Gallery to install this module:
 <br/>
-<br/>PowerShell Gallery – UcLobbyTeams
+<br/>PowerShell Gallery – UcLobbySharePoint
 <br/>https://www.powershellgallery.com/packages/UcLobbySharePoint/
 <br/>
 <br/>Available cmdlets:
@@ -15,6 +15,11 @@ Please use the PowerShell Gallery to install this module:
 <br/>https://uclobby.com/uclobby-sharepoint-powershell-module/
 
 <br/>Change Log:
+<br/>1.1.1 - 2026/10/09
+<ul>
+  <li>Minor: Fixed Exported functions.
+  </li>
+</ul>
 <br/>1.1.0 - 2026/10/09
 <ul>
   <li>Major: Moving shared PowerShell cmdlets to UcLobbyTools (Invoke-UcGraphRequest, Test-UcServiceConnection and Test-UcPowerShellModule)
