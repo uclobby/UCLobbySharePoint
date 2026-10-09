@@ -4,7 +4,7 @@ function Export-UcSharePointSitesWithHold {
         Report with SharePoint Sites/OneDrive with a hold in place.
 
         .DESCRIPTION
-        This script will generate a csv file with Sites/OneDrives with a hold in place.
+        This cmdlet will generate a csv file with SharePoint Sites and OneDrive with a hold in place.
 
         Author: David Paulino
 

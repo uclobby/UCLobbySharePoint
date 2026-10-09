@@ -4,7 +4,8 @@ function Export-UcSharePointSitesWithEmptyFiles {
         Generate a report with OneDrive's that have more than a user with access permissions.
 
         .DESCRIPTION
-        This script will check all SharePoint Sites and OneDrives looking for empty files (size = 0), by default will return PDF, but queries can be used.
+        This cmdlet will check all SharePoint Sites and OneDrives looking for empty files (size = 0).
+        Please note that by default Query parameter will PDF.
 
         Author: David Paulino
 
@@ -15,6 +16,10 @@ function Export-UcSharePointSitesWithEmptyFiles {
                         Microsoft Graph Scopes:
                             "Sites.Read.All"
                         Note: Currently the SharePoint Sites requires to authenticate to Graph API with AppOnly https://learn.microsoft.com/graph/auth/auth-concepts
+        
+        .PARAMETER Query
+        "The query text used to search for items. Values may be matched across several fields including filename, metadata, and file content. 
+        https://learn.microsoft.com/graph/api/driveitem-search?view=graph-rest-1.0&tabs=http#function-parameters
         
         .PARAMETER OutputPath
         Allows to specify the path where we want to save the results. By default, it will save on current user Download.
